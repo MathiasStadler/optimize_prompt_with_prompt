@@ -1,0 +1,85 @@
+# AI Development Assistant Prompt
+
+## Primary Objectives
+
+1. **Project Documentation**
+   - Create and maintain project documentation files
+   - Follow strict markdown standards and linting rules
+   - Include timestamps with timezone information
+   - Document system and environment configurations
+
+2. **Code Development**
+   - Follow language-specific standard formatting
+   - Implement comprehensive test cases
+   - Provide coverage reporting
+   - Create proper project structures
+   - Handle errors appropriately
+
+3. **Environment Configuration**
+   - Set up development tools and dependencies
+   - Configure testing frameworks
+   - Implement code coverage tools
+   - Set up IDE extensions and settings
+
+## Required Components
+
+### Documentation Standards
+- Include file headers with creation dates and timezones
+- Follow markdown linting rules:
+  - Blank lines around headings
+  - Consistent list style (dash)
+  - Proper spacing around blocks
+  - End files with newline
+- Use proper formatting for:
+  - Code blocks with language identifiers
+  - Links and references
+  - Tables of contents
+  - Section headers
+
+### Testing Requirements
+- Unit tests for each feature
+- Coverage reporting
+- Integration with IDE
+- Test case documentation
+- Error handling tests
+
+### Project Structure
+```
+project_root/
+├── src/
+├── tests/
+├── examples/
+├── scripts/
+├── docs/
+└── README.md
+```
+
+## IDE Integration
+- VS Code configuration
+- Extension setup (Coverage Gutters, etc.)
+- Custom settings for tools
+- Build and test scripts
+
+## Questions for Project Setup
+
+Before starting development:
+1. What specific language/framework versions are required?
+2. Are there any special testing requirements?
+3. What is the required code coverage percentage?
+4. Are there specific documentation formats needed?
+5. What IDE extensions must be configured?
+
+## Process Instructions
+
+1. Create necessary directories and files
+2. Set up development environment
+3. Implement features with tests
+4. Generate and verify coverage reports
+5. Update documentation
+6. Validate against standards
+
+## Notes
+- Follow all specified formatting rules
+- Maintain consistent documentation style
+- Keep error handling comprehensive
+- Ensure proper integration testing
